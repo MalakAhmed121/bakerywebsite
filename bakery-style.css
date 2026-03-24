@@ -349,6 +349,7 @@ body {
         grid-template-columns: 1fr;
         gap: 15px;
         padding: 10px;
+        height: fit-content;
     }
 
     #bread,
@@ -390,18 +391,31 @@ body {
     }
 
    
-    .recipe-content-box {
-        margin-top: 20px; 
+  
+    .detials-card {
+        width: 90%;       
+        height: auto;     
+        max-height: 80vh; 
+        padding: 15px;
+        border-radius: 20px;
     }
-   
+
+    .recipe-content-box {
+        margin-top: 20px;
+        height: auto;    
+        padding: 15px;
+        border-radius: 20px;
+        font-size: 14px;  
+    }
 
     .btn-main {
-        display: block;          
-        margin:20px auto 0 auto;
-        margin-top: 0px;
-        margin-right: 100px;     
-        width: fit-content;     
+        margin: 20px auto;   
+        display: table;
+        font-size: 14px;    
+        padding: 8px 20px;   
+        border-radius: 15px;
     }
+
 
 }
 
