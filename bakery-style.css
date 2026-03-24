@@ -295,3 +295,59 @@ body {
     text-decoration: none;
     display: inline-block;
 }
+
+
+
+@media only screen and (max-width: 600px) {
+    .main {
+        width: 100%;
+        height: auto;
+    }
+
+    .main h1 {
+        font-size: 30px;
+        padding: 35px 10px;
+    }
+
+    .recipe-card a,
+    .btn-main {
+        margin-left: auto;
+        margin-right: auto;
+        display: table;
+    }
+
+    .detials-card {
+        width: 88%;
+        height: auto;
+        max-width: 90vh;
+    }
+
+    #bread,
+    #Croissants,
+    #cookies,
+    #Donuts,
+    #Macarons,
+    #Cinnamon,
+    #Baguette,
+    #Sourdough,
+    #Focaccia,
+    #ButterCroissant,
+    #PainauChocolat,
+    #StrawberryDanish {
+
+
+        background-size: cover;
+        background-position: center;
+
+
+        background-repeat: no-repeat;
+        color: white;
+        text-shadow: 0px 0px 3px black;
+
+
+        height: 350px;
+    }
+
+}
+=======
+>>>>>>> 47ad58a5b1ec6a058f5d8a43ecf16a1cadff1849
