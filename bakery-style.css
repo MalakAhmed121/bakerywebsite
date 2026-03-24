@@ -299,22 +299,7 @@ body {
 
 
 @media only screen and (max-width: 600px) {
-    .main {
-        width: 100%;
-        height: auto;
-    }
-
-    .main h1 {
-        font-size: 30px;
-        padding: 35px 10px;
-    }
-
-    .recipe-card a,
-    .btn-main {
-        margin-left: auto;
-        margin-right: auto;
-        display: table;
-    }
+ 
 
     .detials-card {
         width: 88%;
@@ -349,5 +334,4 @@ body {
     }
 
 }
-=======
->>>>>>> 47ad58a5b1ec6a058f5d8a43ecf16a1cadff1849
+
