@@ -19,7 +19,7 @@ body {
     height: 656px;
     padding-bottom: 0ch;
     height: 1100x;
-
+    /* Fixed as per original */
     width: 1500px;
 }
 
@@ -129,7 +129,7 @@ body {
 
 /* Main Categories Backgrounds */
 #bread {
-    background-image: url(bakeryimages/breads.jpeg);
+    background-image: url(bakeryimages/Breads.jpeg);
 }
 
 #Croissants {
@@ -194,7 +194,6 @@ body {
 #ButterBiscuitscard {
     background-image: url(bakeryimages/butterbiscuit.jpeg);
 }
-
 
 #OatmealCookies,
 #OatmealCookiescard {
@@ -296,9 +295,9 @@ body {
     display: inline-block;
 }
 
-/* --------------mobile--------------- */
 
-@media only screen and (max-width: 900px) {
+
+@media only screen and (max-width: 980px) {
 
     .main {
         width: 100%;
@@ -333,24 +332,24 @@ body {
     }
 
     .recipe-card {
-        height: auto;
-        padding: 15px;
+        height: 300px;
+        padding: 10px;
         background-size: cover;
         background-position: center;
     }
 
     .recipe-card a {
-        margin: 20px auto;
+        margin: 120px auto;
         display: table;
         font-size: 14px;
         padding: 8px 20px;
     }
 
- .recipes-container {
-    grid-template-columns: 1fr; 
-    gap: 15px;
-    padding: 10px;
-  }
+    .recipes-container {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        padding: 10px;
+    }
 
     #bread,
     #Croissants,
@@ -364,7 +363,7 @@ body {
     #ButterCroissant,
     #PainauChocolat,
     #StrawberryDanish,
-    
+
     #PistachioMacarons,
     #VanillaMacarons,
     #RaspberryMacrons,
@@ -373,10 +372,13 @@ body {
     #ChocolateDonuts,
     #ClassicCinnamon,
     #PecanCinnamon,
-    #ChocolateCinnamon,#ChocolateCookies,#ButterBiscuits,#OatmealCookies {
+    #ChocolateCinnamon,
+    #ChocolateCookies,
+    #ButterBiscuits,
+    #OatmealCookies {
 
 
-        background-size: 100%;
+        background-size: cover;
         background-position: center;
 
 
@@ -387,6 +389,21 @@ body {
 
     }
 
+   
+    .recipe-content-box {
+        margin-top: 20px; 
+    }
+   
 
+    .btn-main {
+        display: block;          
+        margin:20px auto 0 auto;
+        margin-top: 0px;
+        margin-right: 100px;     
+        width: fit-content;     
+    }
 
 }
+
+
+
