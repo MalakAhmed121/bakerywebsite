@@ -19,7 +19,7 @@ body {
     height: 656px;
     padding-bottom: 0ch;
     height: 1100x;
-    
+
     width: 1500px;
 }
 
@@ -299,52 +299,52 @@ body {
 /* --------------mobile--------------- */
 
 @media only screen and (max-width: 900px) {
- 
-  .main {
-    width: 100%;             
-    height: auto;            
-    background-size:cover;   
-    background-position: center;
-    padding: 40px 20px;      
-    text-align: center;
-  }
 
-  .main h1 {
-    font-size: 28px;        
-    padding: 40px 10px;
-  }
+    .main {
+        width: 100%;
+        height: auto;
+        background-size: cover;
+        background-position: center;
+        padding: 40px 20px;
+        text-align: center;
+    }
 
-  .main p {
-    font-size: 16px;        
-    padding: 20px 10px;
-  }
+    .main h1 {
+        font-size: 28px;
+        padding: 40px 10px;
+    }
 
-  .main a {
-    margin: 20px auto;
-    display: table;           
-    font-size: 14px;
-    padding: 10px 20px;
-  }
+    .main p {
+        font-size: 16px;
+        padding: 20px 10px;
+    }
 
-  .detials-card {
-    width: 90%;             
-    height: auto;
-    max-height: 80vh;         
-  }
+    .main a {
+        margin: 20px auto;
+        display: table;
+        font-size: 14px;
+        padding: 10px 20px;
+    }
 
-  .recipe-card {
-    height: auto;            
-    padding: 15px;
-    background-size:cover;
-    background-position: center;
-  }
+    .detials-card {
+        width: 90%;
+        height: auto;
+        max-height: 80vh;
+    }
 
-  .recipe-card a {
-    margin: 20px auto;
-    display: table;
-    font-size: 14px;
-    padding: 8px 20px;
-  }
+    .recipe-card {
+        height: auto;
+        padding: 15px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .recipe-card a {
+        margin: 20px auto;
+        display: table;
+        font-size: 14px;
+        padding: 8px 20px;
+    }
 
 
     #bread,
@@ -358,10 +358,20 @@ body {
     #Focaccia,
     #ButterCroissant,
     #PainauChocolat,
-    #StrawberryDanish {
+    #StrawberryDanish,
+    
+    #PistachioMacarons,
+    #VanillaMacarons,
+    #RaspberryMacrons,
+    #FilledDonuts,
+    #GlazedDonuts,
+    #ChocolateDonuts,
+    #ClassicCinnamon,
+    #PecanCinnamon,
+    #ChocolateCinnamon,#ChocolateCookies,#ButterBiscuits,#OatmealCookies {
 
 
-        background-size: cover;
+        background-size: 100%;
         background-position: center;
 
 
@@ -372,7 +382,6 @@ body {
 
     }
 
-    
+
 
 }
-
